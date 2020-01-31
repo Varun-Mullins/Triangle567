@@ -36,16 +36,16 @@ class TestTriangles(unittest.TestCase):
     def testRightTriangleA(self):
         """Test if the triangle is a right angle Triangle"""
 
-        self.assertEqual(classifyTriangle(3,4,5),'Right','3,4,5 is a Right triangle')
+        self.assertEqual(classifyTriangle(3,4,5),'Right')
 
     def testRightTriangleB(self): 
         """Test if the triangle is a right angle Triangle"""
 
-        self.assertEqual(classifyTriangle(5,3,4),'Right','5,3,4 is a Right triangle')
+        self.assertEqual(classifyTriangle(5,3,4),'Right')
         
     def testEquilateralTriangles(self): 
         """Test if the triangle is an Equilateral Triangle"""        
-        self.assertEqual(classifyTriangle(1,1,1),'Equilateral','1,1,1 should be equilateral')
+        self.assertEqual(classifyTriangle(1,1,1),'Equilateral')
         
     def testIsoscelesTriangles(self):
         """Test if the triangle is an Isosceles Triangle"""
